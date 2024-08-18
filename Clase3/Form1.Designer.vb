@@ -60,7 +60,7 @@ Partial Class Form1
         Controls.Add(txtcarga)
         Controls.Add(Button1)
         Name = "Form1"
-        Text = "Cargar Archivo TXT"
+        Text = "Cargar archivo TXT"
         ResumeLayout(False)
         PerformLayout()
     End Sub
