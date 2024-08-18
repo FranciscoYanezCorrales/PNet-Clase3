@@ -12,7 +12,7 @@
                 lblestado.Text = "El archivo no fue encontrado."
             End If
         Catch ex As Exception
-            lblestado.Text = "Error al cargar el archivo: " & ex.Message
+            lblestado.Text = "Error al cargar el archivo!: " & ex.Message
         End Try
     End Sub
 End Class
