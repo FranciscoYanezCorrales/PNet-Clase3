@@ -7,7 +7,7 @@
             If My.Computer.FileSystem.FileExists(rutaArchivo) Then
                 Dim contenido As String = My.Computer.FileSystem.ReadAllText(rutaArchivo)
                 txtcarga.Text = contenido
-                lblestado.Text = "Archivo cargado correctamente."
+                lblestado.Text = "Archivo cargado correctamente......"
             Else
                 lblestado.Text = "El archivo no fue encontrado."
             End If
