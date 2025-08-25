@@ -1,8 +1,8 @@
 ﻿Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim rutaArchivo As String = System.IO.Path.Combine(Application.StartupPath, "carga.txt")
+        'Dim rutaArchivo As String = System.IO.Path.Combine(Application.StartupPath, "carga.txt")
         'C:\Users\franc\source\repos\Clase3\Clase3\bin\Debug\net8.0-windows
-        'Dim rutaArchivo As String = "C:\ruta\estudiantes.txt"
+        Dim rutaArchivo As String = "C:\Users\franc\Mi unidad\IPCHILE (DOCENTE)\3-TALLER DE APLICACIONES PUNTO NET\SEMANA 3\carga.txt"
         Try
             If My.Computer.FileSystem.FileExists(rutaArchivo) Then
                 Dim contenido As String = My.Computer.FileSystem.ReadAllText(rutaArchivo)
